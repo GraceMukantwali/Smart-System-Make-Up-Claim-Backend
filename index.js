@@ -5,14 +5,13 @@ const xss = require('xss-clean');
 const cors = require('cors');
 const express = require('express');
 const app = express();
-
+fjfgideoere9ioofo
 const connectDB = require('./db/connect');
 
 const allRoutes = require('./routes/index');
 
 const notFoundMiddleware = require('./middleware/not-found');
-const errorHandlerMiddleware = require('./middleware/error-handler');
-hjghhfhf
+const errorHandlerMiddleware = require('./middleware/error-han
 app.use(express.json());
 app.use(cors());
 
